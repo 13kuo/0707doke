@@ -20,7 +20,7 @@ const CFIP = process.env.CFIP || 'skk.moe';                   // 优选域名或
 const CFPORT = process.env.CFPORT || 443;                    // 节点端口
 const NAME = process.env.NAME || 'Vls';                     // 节点名称
 const ARGO_PORT = process.env.ARGO_PORT || 8080;           // Argo端口，使用固定隧道token需和cf后台设置的端口对应
-const PORT = process.env.SERVER_PORT || process.env.PORT || 3000; // 节点订阅端口，若无法订阅请手动改为分配的端口
+const PORT = process.env.SERVER_PORT || process.env.PORT || 18000; // 节点订阅端口，若无法订阅请手动改为分配的端口
 
 //创建运行文件夹
 if (!fs.existsSync(FILE_PATH)) {
